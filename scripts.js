@@ -42,7 +42,7 @@ let compareToHundred = function(number){
 	
 		// if they answered d return "You got it! GIT417 is the Introductory JavaScript course."
         
-let quizAnswer = functions(answer){
+let quizAnswer = function(answer){
     switch(answer){
         case "a":
             return "Nope. GIT215 is the Introductory HTML/CSS course.";
