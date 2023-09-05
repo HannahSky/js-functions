@@ -2,12 +2,19 @@
 // For the first standard function, write a function that accepts two numbers as parameters, adds them together, then returns the result of that addition
 // name this function addTwoNums
 // TO DO
-
+function addTwoNums(num1, num2){
+    return num1 + num2;
+    // longer form for this function 
+    // let sum = num1 + num2;
+    // return sum;
+}
 
 // For box 2, let's accept two string parameters and return the result of them concatenated into a single string with a space between the two words
 // name this function concatenateStrings
 // TO DO
-
+function concatenateStrings(str1, str2){
+    return str1 + " " + str2;
+}
 
 // for the first function expression, let's write code that displays returns one result if the number entered by the user is less than 100 ("number is less than 100"), and another message if the number is greater than or equal to 100 ("that is 100 or greater")
 // name this variable compareToHundred
